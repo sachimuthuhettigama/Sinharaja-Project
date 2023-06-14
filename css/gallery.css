@@ -1,0 +1,16 @@
+#gallery {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#gallery img {
+	width: 20em;
+	height:20em;
+}
